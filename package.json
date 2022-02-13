@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bedquest@bitbucket.org/ITPL_NODEJS_PROJECTS/ms_backend.git"
+    "url": "git+https://test.git"
   },
-  "author": "Indware Technologies",
+  "author": "Sk Samidul Islam",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ITPL_NODEJS_PROJECTS/ms_backend#readme",
+  "homepage": "https://test",
   "dependencies": {
     "axios": "^0.21.1",
     "base64-to-image": "^1.0.2",
