@@ -1,0 +1,97 @@
+Screen Wise Field Details
+Login Screen:
+
+Email            (varchar)
+Password     (varchar)
+ OR
+Facebook, 
+Gmail
+
+Forget Password
+Mobile Number
+
+Sign Up Screen:
+
+Name             (varchar)
+Email              (varchar)
+Mobile             
+Password        (varchar)
+Referral Code  (varchar)
+
+Contest Add
+
+Contest Name (varchar)
+Entry Fee        (Integer)
+No of Spots     (Integer)
+No of Winner   (Integer)
+Prize Breakup (Varchar)
+
+Team Create
+
+Company Name  (Varchar)
+Company Short Code (Varchar)
+Stock Type (varchar) (IT, Bank etc)
+Position  (Varchar) (WK, Batsman etc)
+
+
+
+
+Profile0.
+ 
+Name (Varchar)
+Email (varchar)
+Mobile No (Integer)
+Gender (Integer)
+
+Payment Transaction Details
+
+User Id (Integer)
+Amount (Integer)
+Date and Time (date)
+Remarks (Varchar) (Like Welcome Bonus)
+
+Account Details Verification
+
+Mobile No (integer)
+Mobile No Is Verified (integer)
+Email (varchar)
+Email Is Verified (integer)
+
+Pan Card Details
+
+Name as on Pan Card (varchar)
+Pan Card (varchar)
+DOB (date)
+State (Integer)
+Pan File (varchar)
+
+Weekly Leaderboard
+
+Date Range 
+User Id
+Points
+Rank
+
+
+
+How To Play
+
+Introduction (LongText)
+Create Your Team (LongText)
+Manage Your Team (LongText)
+Fantasy Point System (LongText)
+Account Balance (LongText)
+Faqs (LongText)
+
+CMS
+
+Privacy Policy (LongText)
+About Us (LongText)
+Legality (LongText)
+Terms and Conditions (LongText)
+
+Contact Us
+
+Full Name (varchar)
+Email (varchar)
+Message (LongText)

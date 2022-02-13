@@ -1,0 +1,22 @@
+User 1:                     User2:                  user3                   User4
+
+userId                      userId                  userId                  userId
+Level: 1                    Level: 1                Level: 1                Level: 1
+clusterSize 1, becomes 4    clusterSize: 1(...2)    clusterSize: 1          clusterSize: 1
+leftUser : blank, user2Id   leftUser: blank         leftUser: blank
+rightUser : blank  user3Id  rightUser: blank        rightUser: blank
+
+
+
+Step 1: User 1 enters with all data,
+2nd User Enters
+step 2: user 2 enters with userId and level: 1 and clusterSize: 1,
+step 3: find parent* User and increment its clustersize by 1 and also enter user2's id in its left hand
+3rd User Enters
+step 4: find parent* User and increment its clustersize by 1 and also enter user2's id in its right hand
+4th User Enters
+step 5: find parent* User and increment its clustersize by 1 and also enter user2's id in its left hand
+step 6: find grandparent and increment its clusterSize by 1.
+step 7: if grandparent's clusterSize becomes 7, its level becomes 2 and clusterSize again goes to 1.
+
+*sort by id or timestamp and enter userId on left of 1st user

@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "mlm_jwtPrivateKey",
+  "db": "mlm_db",
+  "razorpayKeyId": "mlm_razorpay_key",
+  "razorpaySecret": "mlm_razorpay_secret"
+}
